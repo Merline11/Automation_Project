@@ -197,7 +197,7 @@ public class BaseTest {
         clickWebElement("sign_in_lnk_className");
         Thread.sleep(2000);
 
-        typeValuesInTextBox("email_address_txt_id","merline36@gmail.com");
+        typeValuesInTextBox("email_address_txt_id","merline37@gmail.com");
         Thread.sleep(2000);
 
         clickWebElement("create_account_lnk_id");
