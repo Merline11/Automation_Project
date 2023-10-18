@@ -197,13 +197,13 @@ public class BaseTest {
         clickWebElement("sign_in_lnk_className");
         Thread.sleep(2000);
 
-        typeValuesInTextBox("email_address_txt_id","merline32@gmail.com");
+        typeValuesInTextBox("email_address_txt_id","merline34@gmail.com");
         Thread.sleep(2000);
 
         clickWebElement("create_account_lnk_id");
         Thread.sleep(2000);
 
-        driver.findElement(By.id("id_gender2")).click();
+        driver.findElement(By.cssSelector("#id_gender2")).click();
         Thread.sleep(2000);
 
         typeValuesInTextBox("customer_firstname_txt_id","Merline");
